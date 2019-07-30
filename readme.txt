@@ -33,5 +33,8 @@
 远程仓库
 		生成SSH密钥命令 ssh-keygen -t rsa -C "wangmengtao8@139.com"
 	添加远程库
-		添加远程库命令 git remote add origin git@github.com:michaelliao/learngit.git
+		关联远程库命令 git remote add origin git@github.com:michaelliao/learngit.git
+		第一次上传到远程库命令 git push -u origin master，上传到远程库命令 git push origin master，
+		
+		
 		

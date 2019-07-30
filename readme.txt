@@ -42,6 +42,15 @@
 	创建与合并分支
 		创建分支命令 git checkout -b dev,创建了分支dev,git checkout 命令加上-b参数表示创建并切换
 		查看分支命令 git branch
+		合并分支命令：先切换到master(git checkout master),然后用命令 git merge dev(dev是分支名)。
+		删除分支命令：git branch -d dev(dev是分支名)
+		小结
+		查看分支：git branch
+		创建分支：git branch <name>
+		切换分支：git checkout <name>
+		创建+切换分支：git checkout -b <name>
+		合并某分支到当前分支：git merge <name>
+		删除分支：git branch -d <name>
 	解决冲突
 	分支管理策略
 	Bug分支

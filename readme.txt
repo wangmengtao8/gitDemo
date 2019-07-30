@@ -34,7 +34,21 @@
 		生成SSH密钥命令 ssh-keygen -t rsa -C "wangmengtao8@139.com"
 	添加远程库
 		关联远程库命令 git remote add origin git@github.com:michaelliao/learngit.git
-		第一次上传到远程库命令 git push -u origin master，上传到远程库命令 git push origin master，
+		第一次上传到远程库命令 git push -u origin master，上传到远程库命令 git push origin master；
+	从远程库克隆
+		克隆远程库命令 git clone git@github.com:michaelliao/learngit.git
+		
+分支管理
+	创建与合并分支
+		创建分支命令 git checkout -b dev,创建了分支dev,git checkout 命令加上-b参数表示创建并切换
+		查看分支命令 git branch
+	解决冲突
+	分支管理策略
+	Bug分支
+	Feature分支
+	多人协作
+	Rebase
+	
 		
 		
 		
